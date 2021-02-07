@@ -1,0 +1,6 @@
+1.
+pybabel extract . -o locales/myBot.pot
+pybabel update -d locales -D myBot -i locales/myBot.pot
+2.
+
+pybabel update -d locales -D myBot -i locales/myBot.pot
